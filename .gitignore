@@ -21,3 +21,54 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Build artifacts
+## maven
+target/
+## eclipse
+bin/
+build/
+
+# eclipse project artifacts
+.settings/
+.classpath
+.project
+
+# Visual Studio Code artifacts
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# IntelliJ project artifacts
+.idea/
+*.iml
+
+# jazz artifact
+.jazzignore
+
+# vagrant
+.vagrant/
+# test artifacts
+## .gradle directory contains derived information about the gradle build
+## (e.g. cached outputs/input).
+## Move gradle.setting file under .gradle to root folder of the project.
+.gradle/
+
+#logs
+*.log
+
+# backup files
+*.bak
+*~
+
+# OS housekeeping files
+desktop.ini
+
+# project-specific patterns
+##
